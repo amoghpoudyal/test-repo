@@ -3,7 +3,7 @@ ThreeDayHist <- function(){
 URL<- 'http://w1.weather.gov/data/obhistory/KLIT.html'
 timezoneDaylight<- -5
 timezoneStandard<- -6
-#URL1<- 'http://www.timeanddate.com/time/change/usa/chicago'
+#URL1<- 'https://www.timeanddate.com/time/change/usa/chicago'
 
 web<- function(URL){
   web<- read_html(url(URL))
